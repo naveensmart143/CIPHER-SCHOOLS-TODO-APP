@@ -1,0 +1,53 @@
+.listName {
+  display: flex;
+  border-radius: 0.8em;
+  height: 90px;
+  width: 1100px;
+  justify-content: center;
+  align-content: center;
+  margin: 4px;
+  background: #0e7490;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  width: 900px;
+  margin: 3px;
+  /* #cf26c7; */
+  color: white;
+  border-radius: 0.8em;
+  user-select: none;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  /* color:navy */
+}
+.completeTag {
+  font-size: 1.5em;
+  border: 1px solid green;
+  padding: 0.3em;
+  border-radius: 1em;
+  color: white;
+  background-color: green;
+}
+.btnR {
+  transform: scale(1.2);
+  color: green;
+  background: green;
+  color: white;
+  padding: 3px;
+  border: 2px solid green;
+  border-radius: 2em;
+  margin: 2em;
+  cursor: pointer;
+}
+.btnW {
+  transform: scale(1.2);
+  color: white;
+  background: red;
+  padding: 3px;
+  border: 2px solid red;
+  border-radius: 2em;
+  cursor: pointer;
+}
